@@ -1,3 +1,4 @@
+#Apenas cria pasta com a data: data_interval_end
 from airflow.models import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.empty import EmptyOperator
