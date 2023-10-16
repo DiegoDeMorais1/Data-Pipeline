@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
   <a href="https://www.apache.org/">
     <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white"><img</a>
+  </a>
+</div>
     
 
 Na internet, existem diversas APIs que trazem informações climáticas sobre diferentes lugares do mundo e nós utilizaremos uma delas, a Visualcrossing. Vamos acessar o site (https://www.visualcrossing.com) 
