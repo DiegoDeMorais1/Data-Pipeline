@@ -1,3 +1,4 @@
+#Apenas printa "Boas-vindas ao Airflow!" no terminal.
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.python_operator import PythonOperator
