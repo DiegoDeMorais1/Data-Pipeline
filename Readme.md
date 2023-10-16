@@ -1,4 +1,4 @@
-#Principais conceitos do Airflow
+##Principais conceitos do Airflow
 
 O Airflow organiza seus fluxos de trabalho em DAGs, que são basicamente pipelines de dados definidos utilizando a linguagem Python. Cada DAG é composto por um conjunto de tarefas que são utilizadas para implementar uma determinada lógica no pipeline. Sendo que cada tarefa é definida pela instância de um operador.
 
@@ -33,5 +33,5 @@ Por fim, temos o executor, que é o mecanismo de execução das tarefas. Ou seja
 
     cd airflowalura/
     source venv/bin/activate
-    export AIRFLOW_HOME=~/Documentos/datapipeline2/airflowalur 
+    export AIRFLOW_HOME=~/Documentos/datapipeline2/airflowalura 
     airflow standalone
