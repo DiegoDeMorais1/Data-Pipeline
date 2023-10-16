@@ -15,7 +15,7 @@ DAG é uma abreviação para “Directed Acyclic Graphs” - Grafos Acíclicos D
  Acíclico: significa que a execução não entrará em um laço de repetição. Então, eventualmente, acabaremos em um nó final que não estará conectado com o nó inicial.
 
 ***
-(https://github.com/DiegoDeMorais1/Data-Pipeline/blob/main/Aula2-img1.png)
+[https://github.com/DiegoDeMorais1/Data-Pipeline/blob/main/Aula2-img1.png]
 O Airflow possui 4 componentes principais que devem estar em execução para que ele funcione corretamente. São eles o web server, scheduler, banco de dados e executor.
 
 O web server é um servidor feito em Flask, um framework web Pyhton, que serve para nos apresentar a interface de usuário do Airflow, portanto, é por meio dele que acessamos esta interface.
