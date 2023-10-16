@@ -4,15 +4,15 @@ O Airflow organiza seus fluxos de trabalho em DAGs, que são basicamente pipelin
 
 De forma resumida, os principais conceitos do Airflow são:
 
-    DAG: fluxo de trabalho definido em Python.
-    Task: unidade mais básica de um DAG.
-    Operator: encapsula a lógica para fazer uma unidade de trabalho (task).
+ DAG: fluxo de trabalho definido em Python.
+ Task: unidade mais básica de um DAG.
+ Operator: encapsula a lógica para fazer uma unidade de trabalho (task).
 
 DAG é uma abreviação para “Directed Acyclic Graphs” - Grafos Acíclicos Dirigidos, em tradução livre - sendo que cada uma dessas palavras significa:
 
-    Grafos: ferramenta matemática na qual há nós e arestas responsáveis por conectar esses nós;
-    Direcionado: indica que o fluxo de trabalho se dá apenas em uma direção; e
-    Acíclico: significa que a execução não entrará em um laço de repetição. Então, eventualmente, acabaremos em um nó final que não estará conectado com o nó inicial.
+ Grafos: ferramenta matemática na qual há nós e arestas responsáveis por conectar esses nós;
+ Direcionado: indica que o fluxo de trabalho se dá apenas em uma direção; e
+ Acíclico: significa que a execução não entrará em um laço de repetição. Então, eventualmente, acabaremos em um nó final que não estará conectado com o nó inicial.
 
 ***
 O Airflow possui 4 componentes principais que devem estar em execução para que ele funcione corretamente. São eles o web server, scheduler, banco de dados e executor.
@@ -27,11 +27,11 @@ Por fim, temos o executor, que é o mecanismo de execução das tarefas. Ou seja
 
 *Tarefas a serem feitas:
 
-    precisa ser executado toda segunda-feira;
-    criar pastas de armazenamento de dados;
-    extrair dados da previsão do tempo referente à semana de execução.
+   precisa ser executado toda segunda-feira;
+   criar pastas de armazenamento de dados;
+   extrair dados da previsão do tempo referente à semana de execução.
 
-`cd airflowalura/`
-`source venv/bin/activate`
-`export AIRFLOW_HOME=~/Documentos/datapipeline2/airflowalura` 
-`airflow standalone` 
+    cd airflowalura/
+    source venv/bin/activate
+    export AIRFLOW_HOME=~/Documentos/datapipeline2/airflowalur 
+    airflow standalone
