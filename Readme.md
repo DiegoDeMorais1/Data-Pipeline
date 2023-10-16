@@ -1,7 +1,14 @@
 ## Principais conceitos do Airflow
 
-O Airflow organiza seus fluxos de trabalho em DAGs, que são basicamente pipelines de dados definidos utilizando a linguagem Python. Cada DAG é composto por um conjunto de tarefas que são utilizadas para implementar uma determinada lógica no pipeline. Sendo que cada tarefa é definida pela instância de um operador.
+Na internet, existem diversas APIs que trazem informações climáticas sobre diferentes lugares do mundo e nós utilizaremos uma delas, a Visualcrossing. Vamos acessar o site (https://www.visualcrossing.com) 
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Data pipeline Chuvas**
+| :label: Tecnologias | Python, Apache Airflow, VSCode, Linux  (tecnologias utilizadas)
+| :fire: Desafio     |  https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados
+
+O Airflow organiza seus fluxos de trabalho em DAGs, que são basicamente pipelines de dados definidos utilizando a linguagem Python. Cada DAG é composto por um conjunto de tarefas que são utilizadas para implementar uma determinada lógica no pipeline. Sendo que cada tarefa é definida pela instância de um operador.
 De forma resumida, os principais conceitos do Airflow são:
 
  DAG: fluxo de trabalho definido em Python.
